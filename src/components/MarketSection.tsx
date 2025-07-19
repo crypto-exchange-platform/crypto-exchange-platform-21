@@ -55,7 +55,7 @@ const MarketSection: FC = () => (
     </div>
 
     <motion.div
-      className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4"
+      className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 justify-items-center"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -75,4 +75,4 @@ const MarketSection: FC = () => (
   </section>
 );
 
-export default MarketSection; 
+export default MarketSection;
